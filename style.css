@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.room {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.table {
+    position: absolute;
+    top: 33.3333vh;
+    left: calc(50vw - 33.3333vh);
+    height: 33.3333vh;
+    width: 66.6666vh;
+}
+
+.skirt {
+    position: absolute;
+    top: calc(33.3333vh - 0.6944444vh);
+    left: calc(50vw - 33.3333vh - 0.6944444vh);
+    height: calc(33.3333vh + 1.3888vh);
+    width: calc(66.6666vh + 1.3888vh);
+}
+
+.ball {
+    height: 1.3888vh;
+    width: 1.3888vh;
+    border-radius: 0.6944444vh;
+    position: absolute;
+    top: calc(50vh - 0.6944444vh);
+    left: calc(50vw - 16.6666vh - 0.6944vh);
+}
+
+/* decent default colors */
+/*
+.room { background: #eee; }
+.table { background: #1e3628; }
+.skirt { background: #6e581d; }
+.ball { background-image: #aaa; }
+*/
+
+/* basic colors */
+
+.room { background: white; }
+.table { background: white; border: 1px solid black; }
+.skirt { background: white; border: 1px solid black; }
+.ball { background-image: #aaa; border: 1px solid black; }
